@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #f4a261;
+    padding: 20px;
+}
+
+header input,
+header button {
+    margin: 10px;
+    padding: 10px;
+}
+
+#results-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.meal {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    max-width: 300px;
+    text-align: left;
+}
+
+.meal img {
+    width: 100%;
+    border-radius: 5px;
+}
